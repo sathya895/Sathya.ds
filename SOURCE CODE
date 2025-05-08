@@ -403,3 +403,5 @@ iface = gr.Interface(
     outputs=gr.Number(label="Predicted House Price (in USD)"),
     live=True
 )
+
+iface.launch
